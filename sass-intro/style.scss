@@ -1,3 +1,12 @@
-body{
-    background-color: orange;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
 }

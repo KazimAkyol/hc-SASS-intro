@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-//! Variable Declaration
+//********************************************/
+//* Variable Declaration
+//********************************************/
 
 $bgcolor:pink;
 $fontFamily:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,6 +14,8 @@ $fontSize:1.2rem;
 $fontColor:white;
 $navBgColor:#30a7c3;
 $myBorder:2px solid brown;
+$bannerBgColor:hotpink;
+$button-color:#902b2b;
 
 body{
     background-color: $bgcolor;
@@ -19,6 +23,10 @@ body{
     font-size: $fontSize;
     color: $fontColor;
 }
+
+//********************************************/
+//* Header
+//********************************************/
 
 header{
     background-color: $navBgColor;
@@ -50,5 +58,40 @@ header{
                 text-decoration: none;
             }
         }
+    }
+}
+
+//********************************************/
+//* Banner
+//********************************************/
+
+.banner{
+    background-color: $bannerBgColor;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    line-height: 2rem;
+
+    aside{
+        button{
+            background-color: $button-color;
+            padding: 0.5rem;
+            border: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+            margin-left: 0.5rem;
+            color: $fontColor;
+            &:hover{
+                background-color: #d15555;
+                cursor: pointer;
+                transform: scale(0.97);
+            }
+        }
+    }
+
+    img{
+        width: 30%;
+        min-width: 250px;
+        max-width: 400px;
     }
 }

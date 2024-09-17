@@ -4,9 +4,51 @@
     box-sizing: border-box;
 }
 
+//! Variable Declaration
+
+$bgcolor:pink;
+$fontFamily:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$fontSize:1.2rem;
+$fontColor:white;
+$navBgColor:#30a7c3;
+$myBorder:2px solid brown;
+
+body{
+    background-color: $bgcolor;
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    color: $fontColor;
+}
+
 header{
-    background-color: skyblue;
+    background-color: $navBgColor;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem;
+
+    img{
+        width: 80px;
+        border: $myBorder;
+        padding: 0.3rem;
+        border-radius: 10px;
+    }
+
+    ul{
+        list-style-type: none;
+
+        li{
+            display: inline-block;
+            padding: 0.5rem;
+
+            &:hover{
+                text-decoration: none;
+            }
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
 }

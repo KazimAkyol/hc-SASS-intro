@@ -117,7 +117,9 @@ header ul li a {
   border-radius: 1rem;
 }
 
-.flex, .article1, .article2 {
+.flex,
+.article1,
+.article2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,7 +131,8 @@ header ul li a {
   gap: 1rem;
 }
 
-.article1, .article2 {
+.article1,
+.article2 {
   background-color: gray;
   width: 50%;
   height: 10rem;

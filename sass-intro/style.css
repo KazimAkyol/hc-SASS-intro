@@ -73,4 +73,65 @@ header ul li a {
   padding: 1rem;
 }
 
+.card1 {
+  background-color: blue;
+  color: yellow;
+  width: 25%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.card2 {
+  background-color: red;
+  color: white;
+  width: 25%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.card3 {
+  background-color: green;
+  color: orange;
+  width: 25%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.card4 {
+  background-color: magenta;
+  color: white;
+  width: 25%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.articles {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.article1, .article2 {
+  background-color: gray;
+  width: 50%;
+  height: 10rem;
+  border-radius: 10px;
+}
+
+.article2 {
+  border-color: purple;
+}
+
 /*# sourceMappingURL=style.css.map */

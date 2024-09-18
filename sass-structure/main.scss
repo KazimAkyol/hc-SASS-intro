@@ -1,17 +1,18 @@
 //base
-@import './base/reset';
-@import './base/typography';
+@import "./base/reset";
+@import "./base/typography";
 //abstracts
-@import './abstracts/mixins';
-@import './abstracts/variables';
+@import "./abstracts/functions";
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
 //components
-@import './components/button';
+@import "./components/button";
 //layout
-@import './layout/grid';
+@import "./layout/grid";
 //pages
-@import './pages/contact';
+@import "./pages/contact";
 //themes
-@import './themes/dark';
-@import './themes/light';
+@import "./themes/dark";
+@import "./themes/light";
 //vendors
-@import './vendors/bootsrap';
+@import "./vendors/bootsrap";

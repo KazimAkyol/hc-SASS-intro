@@ -1,17 +1,58 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 6 | @import ',/a';
- *   |         ^^^^^
- *   '
- *   main.scss 6:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 6 \2502  @import ',/a';\a   \2502          ^^^^^\a   \2575 \a   main.scss 6:9  root stylesheet";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+button {
+  background-color: #902b2b;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  color: white;
+}
+button:hover {
+  background-color: #d15555;
+  cursor: pointer;
+  transform: scale(0.97);
+}
+
+.grid {
+  float: left;
+}
+
+.dark {
+  background-color: black;
+}
+
+.light {
+  background-color: pink;
+}
+
+/*# sourceMappingURL=main.css.map */

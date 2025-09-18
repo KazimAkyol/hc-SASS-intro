@@ -117,9 +117,7 @@ header ul li a {
   border-radius: 1rem;
 }
 
-.flex,
-.article1,
-.article2 {
+.flex, .article1, .article2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,8 +129,7 @@ header ul li a {
   gap: 1rem;
 }
 
-.article1,
-.article2 {
+.article1, .article2 {
   background-color: gray;
   width: 50%;
   height: 10rem;
@@ -154,7 +151,7 @@ footer p {
 }
 .social-icons .social1 {
   width: 20%;
-  background-color: #1a1aff;
+  background-color: rgb(25.5, 25.5, 255);
   font-size: 1rem;
 }
 .social-icons .social2 {
@@ -164,7 +161,7 @@ footer p {
 }
 .social-icons .social3 {
   width: 20%;
-  background-color: #4d4dff;
+  background-color: rgb(76.5, 76.5, 255);
   font-size: 3rem;
 }
 .social-icons .social4 {
@@ -174,8 +171,6 @@ footer p {
 }
 .social-icons .social5 {
   width: 20%;
-  background-color: #8080ff;
+  background-color: rgb(127.5, 127.5, 255);
   font-size: 5rem;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
